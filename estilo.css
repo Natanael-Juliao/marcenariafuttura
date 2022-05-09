@@ -1,0 +1,125 @@
+:root {
+    --preto: #000000;
+    --branco-principal: #FFFFFF;
+    --cinza: #C0C0C0;
+    --azul-futtura: #0603a7;
+    --laranja-botao: #C78C19;
+    --laranja-active: #088C19;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    
+}
+
+.cabecalho {
+    height: 10.5vh;
+    display: flex;
+    background-color: var(--cinza);
+}
+
+.logo {
+    margin-left: -190px;
+    margin-top: -165px;
+    box-sizing: border-box;
+    border: 0.1px solid #000000;
+    border-radius: 50%;
+    background-color: var(--branco-principal);
+
+}
+
+.menu {
+    text-transform: uppercase;
+    margin-top: 43px;
+    font-size: 26px;
+    margin-left: 200px;
+}
+
+.menu a{
+    margin-left: 60px;
+    text-decoration: none;
+    color: var(--preto);
+    background-color: var(--branco-principal);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.menu a:hover{
+    color: var(--laranja-botao);
+    font-size: 27px;
+    transition: 1s all;
+}
+
+.imagem-painel {
+    height: 89vh;
+}
+
+.painel {
+    margin-top: 0.9px;
+    width: 1440px;
+    height: 733px;
+}
+
+.container {
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+}
+
+.servicos {
+    box-sizing: border-box;
+    border-bottom: 8px solid #C78C19;
+    width: 208px;
+    margin-left: 620px;
+    border-radius: 10px;    
+}
+
+.descricao {
+    display: flex;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-top: 30px;
+    font-size: 22px;
+    align-items: center;
+}
+
+.descricao-servicos1 {
+    text-align: center;
+    margin-left: 170px;
+}
+
+.descricao-servicos2 {
+    text-align: center;
+    margin-left: 290px;
+}
+
+.descricao-servicos3 {
+    text-align: center;
+    margin-left: 280px;
+}
+
+.sub-descricao {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+   
+}
+
+.sub-descricao-menu:nth-child(2) {
+    margin: 0 15px;
+ 
+}
+
+.sub-descricao-menu {
+    padding: 10px;
+    border: 2px solid var(--preto);
+    color: var(--preto);
+    background-color: var(--branco-principal);
+    border-radius: 10px;
+    align-items: center;
+  }
